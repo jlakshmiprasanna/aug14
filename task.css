@@ -1,0 +1,53 @@
+.header{
+    background-color:pink;
+    padding-top: 5%;
+    padding-left: 20%;
+    text-align: center;
+    top: 200px;
+}
+body {
+    object-fit:cover;
+    background-image: url(https://www.tastingtable.com/img/gallery/26-coffee-hacks-you-need-to-know-for-a-better-cup/l-intro-1690195847.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.header, .footer {
+    background-color:lightblue;
+    padding: 35px;
+    text-align: center;
+}
+
+.header a, .footer a {
+    color: #0000ff;
+    margin: 0 15px;
+}
+.content {
+    display: flex;
+    padding: 20px;
+}
+
+.content .left{
+    width: 30%;
+    background-color: #f4a460; 
+    padding: 20px;
+    margin: 10px;
+}
+.content .right{
+    width: 75%;
+    background-color: #f4a460; 
+    padding: 20px;
+    margin: 10px;
+}
+
+.content .left {
+    background-color: #f4a460; 
+    color: #000000; 
+}
+
+.content .right {
+    background-color: #ff6347;
+    color: #ffffff; 
+}
